@@ -42,8 +42,8 @@ def order():
     btn2 = Button(w, text='OK', command=clean, font=('Arial', 13),bg='#FFFF99')
     btn2.pack()
     logo00 = PhotoImage(file="pizza (1).png")
-    #lbl300 = Label(w, image=logo00, bg='#FFFF99')
-    #lbl300.pack()
+    lbl300 = Label(w, image=logo00, bg='#FFFF99')
+    lbl300.pack()
     lbl400 = Label(w, text="Developed by Kalampas", font=('Arial', 24), bg='#FFFF99')
     lbl400.pack(side=BOTTOM)
 
